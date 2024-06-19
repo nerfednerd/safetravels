@@ -1,0 +1,100 @@
+/* TripForm.css */
+
+.trip-form-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .trip-form-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .trip-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group-horizontal {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .form-group input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group-slider {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group-slider label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .form-group-slider input[type="range"] {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group-slider span {
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  
+  .form-group-total {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group-total label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .submit-button {
+    background-color: #ffce00;
+    color: #333;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .submit-button:hover {
+    background-color: #e5b800;
+  }
+  

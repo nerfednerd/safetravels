@@ -1,0 +1,74 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* White background */
+    border: 3px solid #2c3e50; /* Dotted border */
+    padding: 1rem 0;
+    color: #2c3e50; /* Dark text color for contrast */
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #2c3e50; /* Dark text color */
+  }
+  
+  .navbar-list {
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #2c3e50; /* Dark text color */
+    cursor: pointer;
+  }
+  
+  .navbar-item i {
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-item:hover {
+    color: #ffce00; /* Accent color for hover state */
+  }
+  
+  .plan-now-button {
+    background-color: #ffce00; /* Accent button color */
+    color: #2c3e50; /* Dark text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan-now-button:hover {
+    background-color: #e5b800; /* Slightly darker shade for hover state */
+  }
+  
+  /* Additional styles for better visual appeal */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-title,
+  .navbar-item {
+    color: #2c3e50; /* Dark text color for coherence */
+  }
+  
