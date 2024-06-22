@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './Tripformstyles.css';
 
 export default function TripForm() {
@@ -24,10 +25,33 @@ export default function TripForm() {
     setFormData({ ...formData, [name]: parseInt(value) });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
+    try {
+      const response = await axios.post('http://localhost:3001/api/trips', formData);
+      if (response.status === 201) {
+        console.log('Trip saved successfully!', response.data);
+        alert('Trip saved successfully!');
+        // Optionally, you can reset the form data here
+        setFormData({
+          name: '',
+          age: '',
+          origin: '',
+          destination: '',
+          days: '',
+          interests: '',
+          kids: 0,
+          adults: 0,
+          seniors: 0,
+        });
+      } else {
+        console.error('Unexpected response:', response);
+        alert('Unexpected response while saving the trip!');
+      }
+    } catch (error) {
+      console.error('There was an error saving the trip!', error);
+      alert('There was an error saving the trip!');
+    }
   };
 
   const totalPeople = formData.kids + formData.adults + formData.seniors;
