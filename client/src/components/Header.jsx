@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './Headerstyles.css';
+import HeaderImg1 from '/src/assets/OIG1.jpeg'
+import HeaderImg2 from '/src/assets/OIG2.jpeg'
 
 export default function Header() {
   return (
@@ -11,8 +13,8 @@ export default function Header() {
           <p className="header-subtitle">Ensuring Safe Travels in India</p>
         </div>
         <div className="header-image">
-          <img src="/src/assets/OIG1.jpeg" alt="Travel" style={{marginRight:"10px"}} />
-          <img src="/src/assets/OIG2.jpeg" alt="Travel" />
+          <img src={HeaderImg1} alt="Travel" style={{marginRight:"10px"}} />
+          <img src={HeaderImg2} alt="Travel" />
         </div>
       </div>
     </header>
