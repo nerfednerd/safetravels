@@ -1,5 +1,8 @@
 // import React from 'react';
 import './Servicesstyles.css';
+import ServiceRoute from '/src/assets/route1.jpeg';
+import ServiceAssistance from '/src/assets/sos1.jpeg';
+import ServiceRatings from '/src/assets/ratings.jpeg';
 
 export default function FeatureSection() {
   return (
@@ -14,21 +17,21 @@ export default function FeatureSection() {
       </div>
       <div className="feature-cards">
         <div className="feature-card">
-          <img src="/src/assets/route1.jpeg" alt="Optimal Route Planning" />
+          <img src={ServiceRoute} alt="Optimal Route Planning" />
           <h3>Safe Route Planning</h3>
           <p>
             Our AI algorithms analyze your preferences to craft the most efficient and safe route.
           </p>
         </div>
         <div className="feature-card">
-          <img src="/src/assets/sos1.jpeg" alt="Personalize Your Adventure" />
+          <img src={ServiceAssistance} alt="Personalize Your Adventure" />
           <h3>Emergency Assistance</h3>
           <p>
             One tap SOS call and flag messages to all your loved ones and the concerned authorities.
           </p>
         </div>
         <div className="feature-card">
-          <img src="/src/assets/ratings.jpeg" alt="Local Cuisine Recommendations" />
+          <img src={ServiceRatings} alt="Local Cuisine Recommendations" />
           <h3>Security Ratings</h3>
           <p>
             Based on the metadata we will provide you with Security ratings of various places, to help you make sound decisions.
