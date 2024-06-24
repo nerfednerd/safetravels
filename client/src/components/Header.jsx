@@ -9,7 +9,7 @@ export default function Header() {
     <header className="header">
       <div className="header-content">
         <div className="header-text">
-          <h1 className="header-title">savemytrip.com</h1>
+          <h1 className="header-title">SafeTravIndia</h1>
           <p className="header-subtitle">Ensuring Safe Travels in India</p>
         </div>
         <div className="header-image">
