@@ -16,9 +16,9 @@ export default function Navbar() {
         <li className="navbar-item">
         <i class="fa-solid fa-compact-disc"></i> <Link to='/services'>Services</Link>
         </li>
-        <li className="navbar-item">
+        {/* <li className="navbar-item">
         <i class="fa-solid fa-address-card"></i> <Link to="/contactus">Contact Us</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/plannow">
           <button className="plan-now-button">Plan Now</button>

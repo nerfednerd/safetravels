@@ -49,7 +49,7 @@ const AboutUs = () => {
       <AboutUsContainer>
         <Title>About SaveMyTrip</Title>
         <Description>
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos facere temporibus ad quisquam? Molestias, iusto. Ipsum officiis necessitatibus alias perspiciatis rem possimus illum quis vero ad, eos consequuntur in qui voluptate?consectetur,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo illo dicta quidem. adipisicing elit. At necessitatibus perferendis explicabo dolorum officia magnam repudiandae accusamus. Ea, ducimus corporis ad dolorum totam quibusdam tenetur accusantium aliquam labore, aliquid voluptas eveniet reprehenderit corrupti optio!
+        We are a passionate team of Gen Z students dedicated to ensuring smooth and safe journeys.   We provide a pleasant experience for our customers worldwide travelling in this vast land we call Incredible India. We aim to make travel in India beginner-friendly because we believe India is for everyone, both pros and beginners alike.
         </Description>
         <Link to="/services">
         <Button>Services</Button>
