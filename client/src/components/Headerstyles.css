@@ -1,3 +1,4 @@
+/* Existing styles */
 .header {
   background: linear-gradient(135deg, #116dd5 0%, #827bc1 100%);
   color: #fff;
@@ -55,14 +56,10 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .header-images {
-    margin-top: 2rem;
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .header-text {
+    max-width: 50%;
   }
 
   .header-title {
@@ -70,10 +67,64 @@
   }
 
   .header-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .header-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-text {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .header-images {
+    margin-top: 2rem;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
   }
 
   .header-description {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header-content {
+    padding: 1rem;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .header-description {
+    font-size: 0.8rem;
+  }
+
+  .header-img {
+    width: 90%; /* Ensure images are not too large on small screens */
   }
 }
