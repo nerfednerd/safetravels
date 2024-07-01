@@ -8,8 +8,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section company-info">
-          <h4>About SaveMyTrip</h4>
-          <p>SaveMyTrip.com is your ultimate travel companion, ensuring safe and enjoyable travels across India. </p>
+          <h4>About SafeTravIndia</h4>
+          <p>SafeTravIndia is your ultimate travel companion, ensuring safe and enjoyable travels across India. </p>
         </div>
         <div className="footer-section links">
           <h4>Quick Links</h4>
@@ -33,11 +33,11 @@ export default function Footer() {
           <h4>Contact Us</h4>
           <p><i className="fa-solid fa-map-marker-alt"></i> Rohini Sec-16, Delhi, India</p>
           <p><i className="fa-solid fa-phone"></i> +91 7023643540</p>
-          <p><i className="fa-solid fa-envelope"></i> info@savemytrip.com</p>
+          <p><i className="fa-solid fa-envelope"></i> info@safetravindia.com</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 SaveMyTrip. All Rights Reserved.</p>
+        <p>&copy; 2024 SafeTravIndia. All Rights Reserved.</p>
       </div>
     </footer>
   );

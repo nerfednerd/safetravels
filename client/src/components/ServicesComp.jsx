@@ -16,7 +16,7 @@ export default function FeatureSection() {
         <h1 className="feature-main-title">The ultimate travel assistance and planner app for Incredible India</h1>
         <p className="feature-subtitle">
           Say goodbye to the stress of planning and hello to personalized recommendations,
-          efficient itineraries, and seamless dining experiences.
+          efficient itineraries and 24/7 emergency assistance.
         </p>
       </div>
       <div className="feature-cards">
@@ -31,7 +31,7 @@ export default function FeatureSection() {
           <img src={ServiceAssistance} alt="Personalize Your Adventure" />
           <h3>Emergency Assistance</h3>
           <p>
-          Let's be honest, unpleasant incidents can happen to anyone at any time at any place. We extensively try to make sure you aren't at the wrong place at the wrong time
+          Let's be honest, unpleasant incidents can happen to anyone at any time at any place. We extensively try to make sure you aren't at the wrong place at the wrong time.
           </p>
         </div>
         <div className="feature-card">
@@ -52,7 +52,7 @@ export default function FeatureSection() {
           <img src={Guides} alt="Local Cuisine Recommendations" />
           <h3>Independent Guides</h3>
           <p>
-          Our personalised itineraries are tailored to your travel plans with a strong emphasis on ensuring your safety and comfort throughout the journey. 
+          We provide independent tour guides who offer personalised services to international tourists. You can select a personal guide based on your preferences. 
           </p>
         </div>
         <div className="feature-card">

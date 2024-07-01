@@ -18,8 +18,8 @@ export default function Header() {
           </p>
         </div>
         <div className="header-image">
-          <img src={HeaderImg1} alt="Travel" style={{ marginRight: '10px' }} />
-          <img src={HeaderImg2} alt="Travel" />
+          <img src={HeaderImg1} alt="Travel"  />
+          {/* <img src={HeaderImg2} alt="Travel" /> */}
         </div>
       </div>
     </header>
